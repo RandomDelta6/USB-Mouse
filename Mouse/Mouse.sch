@@ -14,12 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L optical~mouse:switch U1
+L Optical_Mouse:switch U1
 U 1 1 62F7695E
 P 2550 1550
 F 0 "U1" H 2678 1596 50  0000 L CNN
 F 1 "Left click" H 2678 1505 50  0000 L CNN
-F 2 "" H 2800 1650 50  0001 C CNN
+F 2 "Mouse:SPDT_Switch" H 2800 1650 50  0001 C CNN
 F 3 "" H 2800 1650 50  0001 C CNN
 	1    2550 1550
 	1    0    0    -1  
@@ -30,7 +30,7 @@ U 1 1 62F88ECB
 P 900 4800
 F 0 "J1" H 1008 5181 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 1008 5090 50  0000 C CNN
-F 2 "" H 900 4800 50  0001 C CNN
+F 2 "Mouse:JST_Conn" H 900 4800 50  0001 C CNN
 F 3 "~" H 900 4800 50  0001 C CNN
 	1    900  4800
 	1    0    0    -1  
@@ -383,12 +383,12 @@ D-
 Wire Notes Line
 	550  7250 2850 7250
 $Comp
-L optical~mouse:switch U3
+L Optical_Mouse:switch U3
 U 1 1 62F77846
 P 1200 1550
 F 0 "U3" H 1328 1596 50  0000 L CNN
 F 1 "Right Click" H 1328 1505 50  0000 L CNN
-F 2 "" H 1450 1650 50  0001 C CNN
+F 2 "Mouse:SPDT_Switch" H 1450 1650 50  0001 C CNN
 F 3 "" H 1450 1650 50  0001 C CNN
 	1    1200 1550
 	-1   0    0    1   
@@ -424,12 +424,12 @@ F 3 "~" H 1550 2400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L optical~mouse:switch U2
+L Optical_Mouse:switch U2
 U 1 1 62F76FC9
 P 1150 2600
 F 0 "U2" V 1046 2878 50  0000 L CNN
 F 1 "Middle click" V 1137 2878 50  0000 L CNN
-F 2 "" H 1400 2700 50  0001 C CNN
+F 2 "Mouse:SPDT_Switch" H 1400 2700 50  0001 C CNN
 F 3 "" H 1400 2700 50  0001 C CNN
 	1    1150 2600
 	0    1    1    0   
@@ -520,12 +520,12 @@ $EndComp
 Text GLabel 1000 6600 0    50   Input ~ 0
 Pin_2
 $Comp
-L optical~mouse:LQ U4
+L Optical_Mouse:LQ U4
 U 1 1 62F9C524
 P 1150 6500
 F 0 "U4" H 1228 6461 50  0000 L CNN
 F 1 "LQ1" H 1228 6370 50  0000 L CNN
-F 2 "" H 1150 6600 50  0001 C CNN
+F 2 "Mouse:LQ1" H 1150 6600 50  0001 C CNN
 F 3 "" H 1150 6600 50  0001 C CNN
 	1    1150 6500
 	1    0    0    -1  
@@ -621,12 +621,12 @@ Wire Wire Line
 Wire Wire Line
 	2500 3650 2700 3650
 $Comp
-L optical~mouse:Optical_Sensor U5
+L Optical_Mouse:Optical_Sensor U5
 U 1 1 62F7519C
 P 1800 3450
 F 0 "U5" H 1750 3150 50  0000 L CNN
 F 1 "Optical_Sensor" H 1550 3950 50  0000 L CNN
-F 2 "" H 1800 3450 50  0001 C CNN
+F 2 "Mouse:Sensor" H 1800 3450 50  0001 C CNN
 F 3 "" H 1800 3450 50  0001 C CNN
 	1    1800 3450
 	1    0    0    -1  

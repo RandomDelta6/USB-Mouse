@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Mouse)(type KiCad)(uri ${KIPRJMOD}/Mouse.pretty)(options "")(descr ""))
+)

@@ -1,4 +1,4 @@
-19212807876425994
+19221112255009650
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -58666,6 +58666,41 @@ Mounting 4.5mm 9774100982
 0
 8
 1
+Mouse
+C_0402_Logitech_Custom
+Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+Mouse
+JST_Conn
+<b>HEADER</b>
+
+0
+5
+5
+Mouse
+LQ1
+
+
+0
+0
+0
+Mouse
+SPDT_Switch
+
+
+0
+3
+3
+Mouse
+Sensor
+
+
+0
+8
+8
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads

@@ -88,11 +88,11 @@ X A 2 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# optical_mouse_LQ
+# Optical_Mouse_LQ
 #
-DEF optical_mouse_LQ U 0 40 Y Y 1 F N
+DEF Optical_Mouse_LQ U 0 40 Y Y 1 F N
 F0 "U" 0 100 50 H V C CNN
-F1 "optical_mouse_LQ" 0 100 50 H V C CNN
+F1 "Optical_Mouse_LQ" 0 100 50 H V C CNN
 F2 "" 0 100 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 DRAW
@@ -103,11 +103,11 @@ X 3 3 -150 -200 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# optical_mouse_Optical_Sensor
+# Optical_Mouse_Optical_Sensor
 #
-DEF optical_mouse_Optical_Sensor U 0 40 Y Y 1 F N
+DEF Optical_Mouse_Optical_Sensor U 0 40 Y Y 1 F N
 F0 "U" 0 -300 50 H V C CNN
-F1 "optical_mouse_Optical_Sensor" 0 350 50 H V C CNN
+F1 "Optical_Mouse_Optical_Sensor" 0 350 50 H V C CNN
 F2 "" 0 -300 50 H I C CNN
 F3 "" 0 -300 50 H I C CNN
 DRAW
@@ -123,11 +123,11 @@ X PIN_8 8 700 250 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# optical_mouse_switch
+# Optical_Mouse_switch
 #
-DEF optical_mouse_switch U 0 40 Y Y 1 F N
+DEF Optical_Mouse_switch U 0 40 Y Y 1 F N
 F0 "U" 250 100 50 H V C CNN
-F1 "optical_mouse_switch" 300 -100 50 H V C CNN
+F1 "Optical_Mouse_switch" 300 -100 50 H V C CNN
 F2 "" 250 100 50 H I C CNN
 F3 "" 250 100 50 H I C CNN
 DRAW
