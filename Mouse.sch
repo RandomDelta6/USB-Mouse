@@ -81,7 +81,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 2650 4100 2650
 Text GLabel 2350 1550 0    50   Input ~ 0
-Pin_2
+Pin_2J
 Wire Wire Line
 	1300 4700 1100 4700
 Wire Wire Line
@@ -294,17 +294,6 @@ F 3 "" H 4800 1650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C8
-U 1 1 62FC41C4
-P 6300 2250
-F 0 "C8" V 6552 2250 50  0000 C CNN
-F 1 "C" V 6461 2250 50  0000 C CNN
-F 2 "Mouse:R_0603_1608_Logi" H 6338 2100 50  0001 C CNN
-F 3 "~" H 6300 2250 50  0001 C CNN
-	1    6300 2250
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GNDREF #PWR0109
 U 1 1 62FC9AD8
 P 6450 2250
@@ -353,8 +342,6 @@ Wire Wire Line
 	4450 1850 4550 1850
 Wire Wire Line
 	6150 2250 5850 2250
-Text GLabel 6150 2400 0    50   Input ~ 0
-D-
 Wire Notes Line
 	550  7250 2850 7250
 $Comp
@@ -419,10 +406,6 @@ Wire Notes Line
 	3300 700  550  700 
 Text GLabel 5850 2250 0    50   Input ~ 0
 Pin_8
-Wire Wire Line
-	6200 2250 6200 2400
-Wire Wire Line
-	6200 2400 6150 2400
 Text GLabel 2700 3350 2    50   Input ~ 0
 Pin_7
 Text GLabel 4150 1650 0    50   Input ~ 0
@@ -479,34 +462,32 @@ F 3 "~" H 2150 6550 50  0001 C CNN
 $EndComp
 Text GLabel 1550 6400 0    50   Input ~ 0
 Pin_3
-Text GLabel 850  6350 0    50   Input ~ 0
+Text GLabel 900  6350 0    50   Input ~ 0
 Pin_4
 $Comp
 L power:GNDREF #PWR0112
 U 1 1 62F9DBF5
-P 850 6550
-F 0 "#PWR0112" H 850 6300 50  0001 C CNN
-F 1 "GNDREF" V 855 6422 50  0000 R CNN
-F 2 "" H 850 6550 50  0001 C CNN
-F 3 "" H 850 6550 50  0001 C CNN
-	1    850  6550
+P 900 6550
+F 0 "#PWR0112" H 900 6300 50  0001 C CNN
+F 1 "GNDREF" V 905 6422 50  0000 R CNN
+F 2 "" H 900 6550 50  0001 C CNN
+F 3 "" H 900 6550 50  0001 C CNN
+	1    900  6550
 	1    0    0    -1  
 $EndComp
-Text GLabel 850  6450 0    50   Input ~ 0
-Pin_2
+Text GLabel 900  6450 0    50   Input ~ 0
+Pin_2J
 $Comp
 L Optical_Mouse:LQ U4
 U 1 1 62F9C524
-P 1000 6350
-F 0 "U4" H 1078 6311 50  0000 L CNN
-F 1 "LQ1" H 1078 6220 50  0000 L CNN
-F 2 "Mouse:LQ1" H 1000 6450 50  0001 C CNN
-F 3 "" H 1000 6450 50  0001 C CNN
-	1    1000 6350
+P 1050 6350
+F 0 "U4" H 1128 6311 50  0000 L CNN
+F 1 "LQ1" H 1128 6220 50  0000 L CNN
+F 2 "Mouse:LQ1" H 1050 6450 50  0001 C CNN
+F 3 "" H 1050 6450 50  0001 C CNN
+	1    1050 6350
 	1    0    0    -1  
 $EndComp
-Text GLabel 2550 6700 3    50   Input ~ 0
-Pin_2
 $Comp
 L LED:LD271 LD1
 U 1 1 62F81B20
@@ -526,29 +507,16 @@ Wire Notes Line
 	3250 4300 3250 2850
 Wire Notes Line
 	550  4300 3250 4300
-Text GLabel 4950 1000 2    50   Input ~ 0
-Pin_1
 $Comp
 L Device:R R12
 U 1 1 62F83C24
-P 4200 1000
-F 0 "R12" V 3993 1000 50  0000 C CNN
-F 1 "330 LD2 resistor" V 4084 1000 50  0000 C CNN
-F 2 "Mouse:R_0603_1608_Logi" V 4130 1000 50  0001 C CNN
-F 3 "~" H 4200 1000 50  0001 C CNN
-	1    4200 1000
+P 3950 1000
+F 0 "R12" V 3743 1000 50  0000 C CNN
+F 1 "330 LD2 resistor" V 3834 1000 50  0000 C CNN
+F 2 "Mouse:R_0603_1608_Logi" V 3880 1000 50  0001 C CNN
+F 3 "~" H 3950 1000 50  0001 C CNN
+	1    3950 1000
 	0    -1   -1   0   
-$EndComp
-$Comp
-L LED:LD271 LD2
-U 1 1 62F8164E
-P 4550 1000
-F 0 "LD2" H 4500 1290 50  0000 C CNN
-F 1 "Sensor illumination" H 4500 1199 50  0000 C CNN
-F 2 "Mouse:LED_Sensor" H 4550 1175 50  0001 C CNN
-F 3 "http://www.alliedelec.com/m/d/40788c34903a719969df15f1fbea1056.pdf" H 4500 1000 50  0001 C CNN
-	1    4550 1000
-	1    0    0    -1  
 $EndComp
 Connection ~ 4200 2650
 Wire Wire Line
@@ -630,17 +598,6 @@ Wire Wire Line
 	1150 2250 1150 2400
 NoConn ~ 1000 2400
 $Comp
-L Device:R JP1
-U 1 1 63EBDACF
-P 2550 6550
-F 0 "JP1" H 2620 6596 50  0000 L CNN
-F 1 "R" H 2620 6505 50  0000 L CNN
-F 2 "Mouse:JP_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2480 6550 50  0001 C CNN
-F 3 "~" H 2550 6550 50  0001 C CNN
-	1    2550 6550
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R JP2
 U 1 1 63EBE5D2
 P 1550 2400
@@ -662,19 +619,8 @@ F 3 "~" H 5700 1300 50  0001 C CNN
 	1    5700 1300
 	1    0    0    -1  
 $EndComp
-Text GLabel 4050 1000 0    50   Input ~ 0
+Text GLabel 3800 1000 0    50   Input ~ 0
 Pin_5
-$Comp
-L Device:R JP3
-U 1 1 63EBED65
-P 4800 1000
-F 0 "JP3" V 4685 945 50  0000 L CNN
-F 1 "R" V 4870 955 50  0000 L CNN
-F 2 "Mouse:JP_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4730 1000 50  0001 C CNN
-F 3 "~" H 4800 1000 50  0001 C CNN
-	1    4800 1000
-	0    -1   -1   0   
-$EndComp
 $Comp
 L power:GNDREF #PWR0104
 U 1 1 62FA90BC
@@ -686,9 +632,6 @@ F 3 "" H 6400 1600 50  0001 C CNN
 	1    6400 1600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2150 6400 2550 6400
-Connection ~ 2150 6400
 Wire Notes Line
 	6950 600  3450 600 
 $Comp
@@ -707,4 +650,67 @@ Wire Wire Line
 	5700 1000 5700 1150
 Wire Wire Line
 	1800 2400 1700 2400
+$Comp
+L Device:C C8
+U 1 1 62FC41C4
+P 6300 2250
+F 0 "C8" V 6552 2250 50  0000 C CNN
+F 1 "C" V 6461 2250 50  0000 C CNN
+F 2 "Mouse:R_0603_1608_Logi" H 6338 2100 50  0001 C CNN
+F 3 "~" H 6300 2250 50  0001 C CNN
+	1    6300 2250
+	0    -1   -1   0   
+$EndComp
+Text GLabel 2600 6800 3    50   Input ~ 0
+Pin_2
+$Comp
+L Device:R JP1
+U 1 1 63EBDACF
+P 2600 6650
+F 0 "JP1" H 2670 6696 50  0000 L CNN
+F 1 "R" H 2670 6605 50  0000 L CNN
+F 2 "Mouse:JP_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2530 6650 50  0001 C CNN
+F 3 "~" H 2600 6650 50  0001 C CNN
+	1    2600 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 2250 6200 2400
+Wire Wire Line
+	6200 2400 6150 2400
+Text GLabel 6150 2400 0    50   Input ~ 0
+D-
+$Comp
+L Device:R JP3
+U 1 1 63EBED65
+P 4800 1000
+F 0 "JP3" V 4685 945 50  0000 L CNN
+F 1 "R" V 4870 955 50  0000 L CNN
+F 2 "Mouse:JP_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4730 1000 50  0001 C CNN
+F 3 "~" H 4800 1000 50  0001 C CNN
+	1    4800 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED:LD271 LD2
+U 1 1 62F8164E
+P 4450 1000
+F 0 "LD2" H 4400 1290 50  0000 C CNN
+F 1 "Sensor illumination" H 4400 1199 50  0000 C CNN
+F 2 "Mouse:LED_Sensor" H 4450 1175 50  0001 C CNN
+F 3 "http://www.alliedelec.com/m/d/40788c34903a719969df15f1fbea1056.pdf" H 4400 1000 50  0001 C CNN
+	1    4450 1000
+	-1   0    0    1   
+$EndComp
+Text GLabel 4950 1000 2    50   Input ~ 0
+Pin_1
+Wire Wire Line
+	4350 1000 4100 1000
+Text GLabel 2600 6400 1    50   Input ~ 0
+Pin_2J
+Wire Wire Line
+	2150 6400 2600 6400
+Connection ~ 2150 6400
+Wire Wire Line
+	2600 6500 2600 6400
 $EndSCHEMATC
