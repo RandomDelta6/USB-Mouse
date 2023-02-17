@@ -47,15 +47,15 @@ Package Specifications:
 <img src= "https://user-images.githubusercontent.com/53912269/219616843-254f96a7-ed72-4f72-9a35-bf4ad8330a43.png"  width="750"> 
 
 # PCB
-<img src="https://user-images.githubusercontent.com/53912269/219617179-49b68349-9b1b-4b84-b159-33ce7b88eb1c.png" width ="250">   
+<img src="https://user-images.githubusercontent.com/55695557/219659162-bceff097-7a13-49fe-9f38-1f77f1ee0943.png" width ="250">   
 
 PCB Copper Trace View
 
-<img src="https://user-images.githubusercontent.com/53912269/219617882-1e25663d-4d9d-4df8-bbb8-a038cf9cef5b.png" width ="500">
+<img src="https://user-images.githubusercontent.com/55695557/219659440-86af6406-017d-490e-8f1e-d9d6fe3dd174.png" width ="500">
 
 PCB Front View
 
-<img src="https://user-images.githubusercontent.com/53912269/219617730-a1c24717-38e6-4cd5-814b-bc050bdf9cd3.png" width ="500">
+<img src="https://user-images.githubusercontent.com/55695557/219659562-980bcff8-3f38-4547-a386-c30ab8138f8e.png" width ="500">
 
 PCB Back View
 

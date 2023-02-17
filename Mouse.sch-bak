@@ -578,8 +578,10 @@ F 3 "~" H 2600 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6150 2250 6150 2400
-Text GLabel 6000 2400 0    50   Input ~ 0
+	6200 2250 6200 2400
+Wire Wire Line
+	6200 2400 6150 2400
+Text GLabel 6150 2400 0    50   Input ~ 0
 D-
 $Comp
 L Device:R JP3
@@ -711,7 +713,4 @@ Wire Wire Line
 Connection ~ 5750 1150
 Wire Wire Line
 	5750 1150 5750 1250
-Connection ~ 6150 2250
-Wire Wire Line
-	6000 2400 6150 2400
 $EndSCHEMATC
