@@ -26,7 +26,7 @@ The PAW3526D8-FJY2 is based on Optical Navigation Technology. It contains an Ima
 • Complete 2D motion sensor  
 • USB interface for simple design  
 • Smooth surface navigation  
-• Frame speed up to 3000(fps)  
+• Frame speed up to 3000 fps 
 • Accurate motion up to 12 ips  
 • 800 dpi resolution  
 • High reliability   
