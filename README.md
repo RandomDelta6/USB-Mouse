@@ -1,5 +1,5 @@
 # Introduction
-This a basic USB mouse PCB based on the PAW3526D8-FJY2 Sensor in 8P SDIP 10x12.5 mm Package. It features 800dpi resolution. The pcb designed to be extremely cost efficient and resilient to dust interference. It features less than 80mA Active power draw and less than 10mA Idle draw. It uses an optical rotary encoder for accurate scroll count with <0.3% error rate. It uses USB 2.0 interface and complies with USB power Suspend Feature. The high tracking frequency allows it to measure even fast swipes accurately with less than 2% creepage even under suboptimal tracking conditions. 
+This is a basic USB mouse PCB based on the PAW3526D8-FJY2 Sensor in 8P SDIP 10x12.5 mm Package. It features 800 dpi resolution. The PCB is designed to be extremely cost efficient and resilient to dust interference. It features less than 80mA Active power draw and less than 10mA Idle draw. It uses an optical rotary encoder for accurate scroll count with <0.3% error rate. It uses USB 2.0 interface and complies with USB power Suspend Feature. The high tracking frequency allows it to measure even fast swipes accurately with less than 2% creepage even under suboptimal tracking conditions. 
 
 Sensor Pixel Dump of pictures on different surfaces:  
 <img src= "https://user-images.githubusercontent.com/53912269/219613855-5d80446a-549e-4c30-ab69-f5b3a472951d.png"  width="300"> 
@@ -26,8 +26,8 @@ The PAW3526D8-FJY2 is based on Optical Navigation Technology. It contains an Ima
 • Complete 2D motion sensor  
 • USB interface for simple design  
 • Smooth surface navigation  
-• Frame speed up to 3000 fps     
-• Accurate motion up to 12 ips     
+• Frame speed up to 3000 fps 
+• Accurate motion up to 12 ips  
 • 800 dpi resolution  
 • High reliability   
 • High speed motion detector   
@@ -44,7 +44,7 @@ Package Specifications:
 <img src= "https://user-images.githubusercontent.com/53912269/219602056-aaf8abee-e91d-4a00-b07a-53425c229666.png"  width="500"> 
 
 # Schematic
-<img src= "https://user-images.githubusercontent.com/53912269/219616843-254f96a7-ed72-4f72-9a35-bf4ad8330a43.png"  width="750"> 
+<img src= "https://user-images.githubusercontent.com/53912269/219696379-7a75c540-ba6e-4ce7-911a-cf19a2ec9020.png"  width="750"> 
 
 # PCB
 <img src="https://user-images.githubusercontent.com/55695557/219659162-bceff097-7a13-49fe-9f38-1f77f1ee0943.png" width ="250">   
@@ -139,4 +139,3 @@ I do not assume any liability for the materials, information and opinions provid
 
 # Licensing
 All PCB design files and hardware are released under the [Creative Commons Attribution Share Alike 4.0 license](https://choosealicense.com/licenses/cc-by-sa-4.0/).
-
